@@ -57,7 +57,6 @@
                         @csrf
                         <div class="card-body">
                             <div class="form-group mb-3">
-                                <label class="form-label d-none">ddEmail Address</label>
                                 <label class="form-label">Email Address</label>
                                 <input type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus>
 
